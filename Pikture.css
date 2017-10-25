@@ -1,0 +1,11 @@
+textarea {
+    resize: none;
+}
+
+
+ div.banner{
+     background-color: skyblue;
+     color: white;
+     margine: 20px 0 20px 0;
+     padding: 20px;
+ }
