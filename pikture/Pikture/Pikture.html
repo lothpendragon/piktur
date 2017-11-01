@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Pikture</title>
+    <p id="Piktures"></p>
+    <!--additional scripts here VVVV
+    additional scripts here ^^^^-->
+    <script  type = "text/javascript" src="Pikture.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <link rel="stylesheet" href="Pikture.css">
+</head>
+
+<body style=" background-color: #ffecc6">
+<div class="banner">
+  <p style="margin: 0 0 0 0; width: 180px; color: black; background-color:#FFECC6;"  id="name">Picture Name:<p2 id="picName"></p2></p>  <br>
+   <center> <h1>WELCOME TO PIKTURE</h1>
+   <p> Here you can create your very own pictures with drawing tools for free, so, get stuck in!</p>
+   </center>
+</div>
+<br>
+<center><canvas id="canvas" style="border:1px solid #000000;">  canvas tag is not supported.</canvas></center>
+<center><input style = "overflow:auto;resize:none"name = "Width" id="Width" placeholder="Width(Pixels)"><input style = "overflow:auto;resize:none" id = "Height" placeholder="Height(Pixels)"></center>
+<center><form action="/action_page.php"><input  list="SaveAs" name="SaveAs" id="SaveAsInput"><datalist id ="SaveAs" ><option value="PNG"><option value="JEPG"><option value ="GIF"><option value="BMP"><option value="TIFF"></option></datalist></form><button id="new" type="button">Create</button><button id="save" type="button">Save</button></center>
+<div class="credits">
+    <div class="banner2"></div>
+    <div class="imageOne">
+        <img src="./images/BillNye-300-md.jpg" width="200" height="200">
+        <p><b>Bill Nye </b><br><br> an eejit that thinks gender is a spectrum</p>
+    </div>
+    <div class="imageTwo">
+        <img src="./images/BillNye-300-md.jpg" width="200" height="200">
+        <p><b>Bill Nye </b><br><br> an eejit that thinks gender is a spectrum</p>
+    </div>
+    <div class="imageThree">
+        <img src="./images/BillNye-300-md.jpg" width="200" height="200">
+        <p><b>Bill Nye </b><br><br> an eejit that thinks gender is a spectrum</p>
+    </div>
+    <div class="imageFour">
+        <img src="./images/BillNye-300-md.jpg" width="200" height="200">
+        <p><b>Bill Nye </b><br><br> an eejit that thinks gender is a spectrum</p>
+    </div>
+</div>
+
+</body>
+</html>
+

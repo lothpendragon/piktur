@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Pikture</title>
+    <p id="Piktures"></p>
+    <!--additional scripts here VVVV
+    additional scripts here ^^^^-->
+    <script  type = "text/javascript" src="Pikture.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <link rel="stylesheet" href="Pikture.css">
+</head>
+
+<body style=" background-color: #ffecc6">
+<div class="banner">
+    <p style=" width: 280px; color: black; background-color:#FFECC6; height: 31px" id="name"><b style="right: -5px; bottom: -7px; position: relative; text-align: center;">Picture Name: <textarea id="picName" style="position: absolute; height: 18px; top:-3px"></textarea></b></p>
+    <button>Create New</button><button id="save" type="button">Save</button>
+    <p style="color: black">File Type: </p><form action="/action_page.php"><input  list="SaveAs" name="SaveAs" id="SaveAsInput"><datalist id ="SaveAs" ><option value="PNG"><option value="JEPG"><option value ="GIF"><option value="BMP"><option value="TIFF"></option></datalist></form>
+    <center> <h1>WELCOME TO PIKTURE</h1>
+        <p> Here you can create your very own pictures with drawing tools for free, so, get stuck in!</p>
+    </center>
+</div>
+<br>
+<center><div class="toolBar" style="border: 5px;">
+    <button style="background-color: red" class = colours></button>
+    <button style="background-color: yellow" class = colours></button>
+    <button style="background-color: grey" class = colours></button>
+    <button style="background-color: brown" class = colours></button>
+    <button style="background-color: green" class = colours></button>
+    <button style="background-color: orange" class = colours></button>
+    <button style="background-color: white" class = colours></button>
+    <button style="background-color: black" class = colours></button>
+</div></center>
+<center><canvas id="canvas" style="border:1px solid #000000;">  canvas tag is not supported.</canvas></center>
+<center><input style = "overflow:auto;resize:none"name = "Width" id="Width" placeholder="Width(Pixels)"><input style = "overflow:auto;resize:none" id = "Height" placeholder="Height(Pixels)"></center>
+<center><button id="new" type="button">Create</button></center>
+<div class="credits">
+    <div class="banner2"></div>
+    <div class="imageOne">
+        <img src="./images/daryl.jpg" width="200" height="200">
+        <p><b>Daryl Black</b><br><br> Programmer </p>
+    </div>
+    <div class="imageTwo">
+        <img src="./images/gary.jpg" width="200" height="200">
+        <p><b>Gary Malcolmson</b><br><br>Programmer</p>
+    </div>
+    <div class="imageThree">
+        <img src="./images/julie.jpg" width="200" height="200">
+        <p><b>Juile Black </b><br><br>Programmer</p>
+    </div>
+    <div class="imageFour">
+        <img src="./images/rj.jpg" width="200" height="200">
+        <p><b>Ruarie Hannay</b><br><br>Programmer</p>
+    </div>
+</div>
+
+</body>
+</html>
+
+</html>
+
